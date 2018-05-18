@@ -18,4 +18,22 @@ public class SelfConfigController {
     public String getProp(){
         return config.getName()+" - "+config.getVersion();
     }
+
+//    @Value("${abc}")
+//    private String abc;
+//
+//    @GetMapping("abcPro")
+//    public String getAbcPro(){
+//        return abc;
+//    }
+
+    @Value("${abc.yml}")
+    private String yml;
+
+    @GetMapping("abcYml")
+    public String getYml(){
+        return yml;
+
+    }
+
 }
