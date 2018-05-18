@@ -1,4 +1,4 @@
-package com.zys.spring;
+package com.zys.spring.defaultconfig;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

@@ -1,4 +1,4 @@
-package com.zys.spring;
+package com.zys.spring.selfconfig;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.PropertySource;

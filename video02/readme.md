@@ -23,6 +23,12 @@ http://localhost:8080/project
 自定义路径对.yml文件支持的不是很好（原因未知）
 
 
+启动时指定配置文件路径 com.zys.spring.MyConfigApp
+
+http://localhost:8080/abcPro
+
+http://localhost:8080/abcYml
+
 * 参考文章
 
 * [springboot读取配置文件](https://blog.csdn.net/freyaalisa/article/details/78837184)

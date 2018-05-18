@@ -1,3 +1,17 @@
 test:
   user:
     name: d
+
+spring:
+  profiles:
+    active: test
+pro:
+  test: linux-pro
+
+---
+
+spring:
+  profiles:
+    active: dev
+pro:
+  test: windows-pro
