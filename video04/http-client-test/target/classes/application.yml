@@ -1,0 +1,21 @@
+spring:
+  profiles: A
+  application:
+    name: eureka
+server:
+  port: 8761
+eureka:
+  client:
+    defaultZone: http://127.0.0.1:8762/eureka/
+
+---
+
+spring:
+  profiles: B
+  application:
+      name: eureka
+server:
+  port: 8762
+eureka:
+  client:
+    defaultZone: http://127.0.0.1:8761/eureka/
