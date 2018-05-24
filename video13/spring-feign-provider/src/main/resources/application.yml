@@ -1,0 +1,12 @@
+#server:
+#  port: 8081
+spring:
+  application:
+    name: spring-feign-provider
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+      preferIpAddress: true
+      instance-id: ${spring.cloud.client.ipAddress}:${server.port}
