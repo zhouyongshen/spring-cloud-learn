@@ -1,0 +1,10 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: spring-zuul-getway
+zuul:
+  routes:
+    sale:
+      path: /sale/**
+      serviceId: spring-zuul-sale
