@@ -1,0 +1,15 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: spring-zuul-getway-config
+zuul:
+  routes:
+    sale:
+      path: /sale/**
+      serviceId: spring-zuul-sale
+    route163:
+      url: http://www/163.com
+    testForward:
+      path: /fo/**
+      url: forward:/receive
