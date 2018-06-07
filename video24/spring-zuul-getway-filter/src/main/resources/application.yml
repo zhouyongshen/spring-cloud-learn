@@ -1,0 +1,12 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: spring-zuul-getway-filter
+zuul:
+  routes:
+    route163:
+      url: http://www/163.com
+    testForward:
+      path: /fo/**
+      url: forward:/receive
